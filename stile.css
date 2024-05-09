@@ -1,0 +1,25 @@
+
+.header{
+	position: relative;
+	background-color: red;
+	height: 50px;
+	width: 100%;
+	padding: 10px;
+}
+
+.mainpage{
+	position: relative;
+	background-color: blue;
+	width: 100%;
+	padding: 20px;
+	height: 100%;
+}
+
+.footer{
+	position: absolute;
+	background-color: green;
+	bottom: 0px;
+	height: 50px;
+	width: 100%;
+	padding: 10px;
+}
