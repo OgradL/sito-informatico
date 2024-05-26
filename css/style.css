@@ -1,7 +1,7 @@
 
-html, body { 
-    padding:0;
-    margin:0;
+html, body {
+	padding:0;
+	margin:0;
 }
 
 .center-horizontal{
@@ -61,30 +61,56 @@ html, body {
 }
 
 .navbar{
-    display: flex;
+	display: flex;
 	height: 100%;
 	background-color: red;
 	overflow: hidden;
 }
 
 .navelement{
-    color: black;
-    background: #ededed;
-    padding: 3px;
-    margin: 3px 3px;
-    display: flex;
-    justify-content: center;
+	color: black;
+	background: #ededed;
+	padding: 3px;
+	margin: 3px 3px;
+	display: flex;
+	justify-content: center;
 	align-items: center;
 }
 
 .navelement:hover{
-    background: #bababa;
+	background: #bababa;
 }
 
 a{
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+	display: block;
+	color: black;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.footbar{
+	display: flex;
+	height: 100%;
+	background-color: green;
+	overflow: hidden;
+	justify-content: right;
+	align-items: center;
+
+}
+
+.footelement{
+	color: black;
+	background: #00000000;
+	padding: 3px;
+	margin: 3px 3px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footelement:hover{
+	background: #0000003f;
 }
