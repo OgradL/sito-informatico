@@ -5,7 +5,9 @@ html, body {
 }
 
 .center-horizontal{
+    display: grid;
 	margin: auto;
+    justify-content: center;
 }
 
 .center{
@@ -34,6 +36,8 @@ html, body {
 }
 
 .mainpagecontainer{
+    background-image: url("../img/fotoristorante.jpg");
+    background-size: cover;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -44,10 +48,11 @@ html, body {
 
 .mainpage{
 	box-sizing: border-box;
-	background-color: blue;
+	background-color: transparent;
 	width: 100%;
 	margin-top: 50px;
 	margin-bottom: 50px;
+    color: white;
 }
 
 .footer{
@@ -113,4 +118,9 @@ a{
 
 .footelement:hover{
 	background: #0000003f;
+}
+
+.big-title{
+    font-size: 60px;
+    font-family: 'Times New Roman';
 }
