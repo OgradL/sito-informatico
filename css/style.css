@@ -5,9 +5,9 @@ html, body {
 }
 
 .center-horizontal{
-    display: grid;
+	display: grid;
 	margin: auto;
-    justify-content: center;
+	justify-content: center;
 }
 
 .center{
@@ -36,9 +36,9 @@ html, body {
 }
 
 .mainpagecontainer{
-    background-image: url("../img/fotoristorante.jpg");
-    background-size: cover;
-    background-position: center;
+	background-image: url("../img/fotoristorante.jpg");
+	background-size: cover;
+	background-position: center;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -48,9 +48,9 @@ html, body {
 }
 
 .obfuscate{
-    width: 100%;
-    height: 100%;
-    background-color: #00000070;
+	width: 100%;
+	height: 100%;
+	background-color: #00000070;
 }
 
 .mainpage{
@@ -59,7 +59,7 @@ html, body {
 	width: 100%;
 	margin-top: 50px;
 	margin-bottom: 50px;
-    color: white;
+	color: white;
 }
 
 .footer{
@@ -110,7 +110,7 @@ a{
 	overflow: hidden;
 	justify-content: right;
 	align-items: center;
-    color: white;
+	color: white;
 }
 
 .footelement{
@@ -128,29 +128,29 @@ a{
 }
 
 .big-title{
-    font-size: 60px;
-    font-family: 'Times New Roman';
+	font-size: 60px;
+	font-family: 'Times New Roman';
 }
 
 .lista-allergeni{
-    margin: auto;
-    width: 100%;
-    font-size: 18px;
+	margin: auto;
+	width: 100%;
+	font-size: 18px;
 }
 
 .nallergene{
-    display: flex;
-    grid-area: nallergeni;
-    justify-content: right;
-    align-content: center;
-    padding-right: 15px;
-    margin: 5px;
+	display: flex;
+	grid-area: nallergeni;
+	justify-content: right;
+	align-content: center;
+	padding-right: 15px;
+	margin: 5px;
 }
 
 .allergene{
-    grid-area: allergene;
-    align-content: left;
-    margin: 5px;
+	grid-area: allergene;
+	align-content: left;
+	margin: 5px;
 }
 
 
